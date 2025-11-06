@@ -103,7 +103,7 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
             channel_message = (
                 f"🎭 *Anonymous Confession*\n\n"
                 f"{confession['text']}\n\n"
-                f"_Want to share your confession? Message @YourBotUsername_"
+                f"_Want to share your confession? Message @ConfessionBD_bot_"
             )
             
             await context.bot.send_message(
